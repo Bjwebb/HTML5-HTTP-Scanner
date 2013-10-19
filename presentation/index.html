@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>HTML5 XSS</title>
+        <title>HTML5 Port Scanning</title>
 
         <!--<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
         <meta name="author" content="Hakim El Hattab">-->
@@ -36,7 +36,7 @@
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
                 <section>
-                    <h1>HTML5 XSS</h1>
+                    <h1>HTML5 Port Scanning</h1>
                     <h3>Wonderful new &lsquo;features&rsquo; in your browser</h3>
                     <p>
                         <small><a href="http://bjwebb.co.uk">Ben Webb</a> / <a href="http://twitter.com/bjwebb67">@bjwebb67</a> / <a href="http://github.com/Bjwebb/">Bjwebb on Github</a></small>
@@ -64,7 +64,7 @@
 * Fiddly - requires making inferences that could be wrong
                 </script></section>
                 <section>
-                    <h2>What if we could get the browser to just tell us if there's a HTTP server?</h2>
+                    <h2>What if we could just have callbacks for if a port is open?</h2>
                 </section>
                 <section data-markdown><script type="text/template">
 
@@ -85,6 +85,11 @@
 <iframe src="click.html"></iframe> 
 
                 </script>
+                </section>
+
+                <section>
+                    <h2>Just port scanning?</h2>
+                    <p>Could also be used to fingerprint what software is being run, and make arbitary GET requests.</p>
                 </section>
  
                 <section>
